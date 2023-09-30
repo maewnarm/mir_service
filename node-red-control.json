@@ -1,0 +1,6083 @@
+[
+    {
+        "id": "b940cdea94cfab16",
+        "type": "tab",
+        "label": "MiR Status",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d560d1d7d4ef24a8",
+        "type": "tab",
+        "label": "MiR Manual Operate",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0afd3702c3c4f74b",
+        "type": "tab",
+        "label": "QR Data read",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b7dc09b06b0816d5",
+        "type": "tab",
+        "label": "MiR Modbus read",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f7516f6b3eb009ef",
+        "type": "group",
+        "z": "b940cdea94cfab16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0432f57f95c72ef1",
+            "f7622aa28e0b7b62",
+            "208034c9f6e1604b",
+            "73bc7e124874fb7a",
+            "47f5dfc39ca1c5e3",
+            "399632eec4f5133e",
+            "c029ec44061b6ced",
+            "15784f7d2897bf9a",
+            "f762a245475b659c",
+            "8a9205b984c64c10",
+            "0e4c7a0c6a2ec882",
+            "b9d676d6572c770f",
+            "9bad30fd9da67eca",
+            "d20ee804b80e1e79",
+            "1a25a2668f69636b",
+            "429798b027892f59",
+            "22d1e33678fba1ce",
+            "dc0b66208bc2c498",
+            "c65819b5ef7ef3cf",
+            "5478f2d022260709",
+            "5133978fcc0ecb52",
+            "b589701b5924066a",
+            "179b400c803f5334",
+            "039246eb05a6030c",
+            "f02b173289fb4a87",
+            "0d5406fa56f6336a",
+            "9eddb5d26008782a",
+            "33cc88ef5d85f0f9",
+            "285ea0670eabbfbc",
+            "17562d4a87b2f0fe",
+            "4149b95ff6437fe5",
+            "7df4bbe074a98bb9",
+            "7dcb00add71ed909"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 1132,
+        "h": 482
+    },
+    {
+        "id": "1bdfb45fde9f0c4c",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d8ca914e65a42874",
+            "c87c4ea573558ff8",
+            "b6c052fb4e4306e6",
+            "ed86d5c919130cc2",
+            "a8526fabde6e48f0",
+            "b337eadd46e9af1c",
+            "818aecb6bce50318",
+            "cec8e751f1d71609",
+            "0cb7e6997ec4e68a",
+            "f6a6ae578db2ae29",
+            "861a4ba79cbc832b",
+            "af2e5ef47aba144c",
+            "2e0c8a85968b8e91",
+            "345c77644b2530a0",
+            "0ed098a214eb64f8",
+            "bc4ea4a708ba957d",
+            "ae4701e17125863d",
+            "b18d39cffb552f3d",
+            "1c3da580b24d9096"
+        ],
+        "x": 774,
+        "y": 19,
+        "w": 972,
+        "h": 282
+    },
+    {
+        "id": "f5972eb6cddbcf56",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8336abb79d270148",
+            "196e70d2925c03ce",
+            "258b4eb05e4319a3",
+            "3b0fdbd30ad20a1a",
+            "3b4a07551743abc3",
+            "e2f4b416f1062d0d",
+            "09c41e79043d1412",
+            "73459ef3bd8826eb",
+            "83258be9e1e2fe9a",
+            "fc1d1960baa6a83d",
+            "f7ba6c86180bb854",
+            "5030ecdd5d813534"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 752,
+        "h": 182
+    },
+    {
+        "id": "ef5bc43dfbcc5195",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0595786526a144f3",
+            "b84993097ce01510",
+            "38a5b311ae185555",
+            "23b4bd3ce6cf1f37"
+        ],
+        "x": 14,
+        "y": 219,
+        "w": 752,
+        "h": 82
+    },
+    {
+        "id": "31783de502c3e921",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "66af781a432a56b9",
+            "cbfe425e6dcbc939",
+            "2ae86e4bb9bae2ce",
+            "1ac9189309ff1863",
+            "09baa5ae81deea22",
+            "f4733fd43b930e08",
+            "9c796f97fa389800",
+            "ae97372c16be4f3b",
+            "9dfe30a881d233cf",
+            "59a02762ee5c629c",
+            "5ba8d4cbade20baf",
+            "402c8bf22f641d3c",
+            "70ed748e87038a1f",
+            "37d4548741ee2bf8",
+            "d7da65288894fe90",
+            "77eb8590c752c063",
+            "ed3c2ecb7e876eb6",
+            "b1627a8ddfd933b1",
+            "b78fd3883459c5b1",
+            "949c86faf73367f5",
+            "af4e47d0e7edc8bd",
+            "3751ecb9ef85f4a9",
+            "e4e68aaa32f036fb",
+            "a1f46a9a4a396b91",
+            "1da10d261492e908",
+            "b26a4d54d3138da9",
+            "c18ca1a9c4fe1a1e",
+            "874d669deaeaadc0",
+            "f13c64e0b6f6e0c6",
+            "42e667a572096ab5",
+            "7fef660868080d39",
+            "0ba1c75448d80447",
+            "fa069d9d72872701",
+            "73ee54c7654677c2",
+            "dcb8a12d219f494c",
+            "d4d14884161c189b",
+            "b218002c53eaeaae",
+            "4c427402f55e5918",
+            "58a7a9decede291c",
+            "215e2b772d3bcf80",
+            "eb8f4c75644fee7f",
+            "e391064660878a66",
+            "f9c982cd750bca26",
+            "70e7c1421b84c021",
+            "d7577b89349c35ae",
+            "d785202c521bcdfd"
+        ],
+        "x": 14,
+        "y": 319,
+        "w": 1412,
+        "h": 482
+    },
+    {
+        "id": "50a97f3e6ca7d353",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e817b5c8892d1eee",
+            "b7696e002eb188b2",
+            "5e4e9964be9413ec",
+            "19b46377f2f6fa15",
+            "70c8e5ed244cde8e",
+            "58173215436e239f",
+            "212b794a89774e29",
+            "0b069cb4a52d0a14",
+            "4a8e772f20ae81ac",
+            "a1297c73bcd5e7dc",
+            "27f9f9209f9af12b",
+            "bd2cbdd3ac6a0c93",
+            "25aa4015179d4dba",
+            "1ad73df29a4c0fd7"
+        ],
+        "x": 1434,
+        "y": 319,
+        "w": 562,
+        "h": 282
+    },
+    {
+        "id": "2d6642222e1fa428",
+        "type": "group",
+        "z": "0afd3702c3c4f74b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1f3d628336b355c5",
+            "6fe85d0fb95e3e28",
+            "a6c1404d180a6b26",
+            "a6ce8ffceae6597c",
+            "a828ca4164d8eb19",
+            "4a9067f55de01343",
+            "ce4071f5fe731672",
+            "6dc0a97760abb5ce",
+            "5459ca9b93ce9d40",
+            "4e745fcdc2e83b04",
+            "32cb7c0b9b1962e5",
+            "28e9478a0f53a37d",
+            "6fb7451a3651f16a",
+            "471933ee96dd03e8",
+            "c8363719a0df9dbf",
+            "a6489f376fd2e56b"
+        ],
+        "x": 54,
+        "y": 19,
+        "w": 812,
+        "h": 282
+    },
+    {
+        "id": "85d7d8ad45b65671",
+        "type": "group",
+        "z": "b7dc09b06b0816d5",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2a7869daeab2f444",
+            "39bd83aba0502e41",
+            "150728f8d3efb63f",
+            "131bf2f5b7d86403",
+            "a78396f7a48ab1a7",
+            "6f6464c41de73731",
+            "d80dfebdef148093",
+            "c3ada2c2081d89a7",
+            "7070168d3fa6135e",
+            "e7367ea6b3acf48c",
+            "6a3f01ec68f9e5dc",
+            "d437f5ecbd43725b",
+            "dd041994aaa4d563",
+            "0549cfe2d32250e2",
+            "92ca326c23666f21",
+            "ac9c8e006f255a0f",
+            "f916697d813bfb19",
+            "5dd745bfaaa48ab7",
+            "8906c097c5b11e1b",
+            "5e137e85eb7715d9",
+            "f14593938aecc7c4",
+            "e2322228f21de3c7",
+            "c03175f72bb26472",
+            "ff39454e6a207983",
+            "f0aa508da4a2f1f0",
+            "1d53961ba329f8b7",
+            "dfa149785c032529",
+            "b1569c31c9dc40c9",
+            "d2275dafd778b901",
+            "4dc5f156a06c06f6",
+            "eea5d5ce4bca3680",
+            "5a1c35658daa9640",
+            "f47ebf79d63fa6e3",
+            "3da55376a4188e0f",
+            "ece753446f14d437",
+            "f4e02461713c078f",
+            "83784c9805b44ab0",
+            "ca8a4f6baa4426f3",
+            "73a2743e9ba30bb0",
+            "8fb2f2ceb4814ab9",
+            "a0fdc5367e84e8d5",
+            "35704c7d203d8096",
+            "cc9a3c24107bac8d",
+            "2600299e7827707d"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 732,
+        "h": 742
+    },
+    {
+        "id": "623007695c913157",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b6270f7be9215a65",
+            "4c1dd62c3310b367",
+            "5457f7845e6fe4fa",
+            "97f16462242b379a",
+            "bdce8a73755136eb",
+            "89e29ba24d1f35be",
+            "7a5b35793338e5d7"
+        ],
+        "x": 1434,
+        "y": 639,
+        "w": 572,
+        "h": 162
+    },
+    {
+        "id": "e8a6349f675da287",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f08b47722f02f98a",
+            "5f3bbe008cd9db21",
+            "34b65f638ce3be11",
+            "ce93a1d5fab2931f",
+            "aafbc68521ad942a",
+            "e84cafacfe24b66f",
+            "21d88fd517fc5b9b",
+            "513ee5d6c1288261",
+            "cf0dfe2c0fcc3570",
+            "0c8e2a6b54de6324",
+            "ab2d850d7fa0fb2c",
+            "40205c9a363df148",
+            "35193ba94a6ed541",
+            "4e983e0b4247a6f1",
+            "be738433ce268791",
+            "94def268a65323c2",
+            "503889b84974b530",
+            "e2b8790339dbfcf7",
+            "cdfa45237b65327b",
+            "6e23f28e590db0ae",
+            "f8dee3a42e8c6b30"
+        ],
+        "x": 14,
+        "y": 819,
+        "w": 712,
+        "h": 362
+    },
+    {
+        "id": "9472d8128bd5b566",
+        "type": "group",
+        "z": "d560d1d7d4ef24a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "592c18bfcd605e7b",
+            "70f730fbd616de90",
+            "9d38075f9cfc2471",
+            "420c180a729d2bbb",
+            "cdb60ce7f9d32a3f",
+            "cdd2b5cd68453a66",
+            "42fc6cca090ebbb6",
+            "5672f5bb123dccbe",
+            "f4603ae13add49bd",
+            "ad7f6a0cb73fe115",
+            "d74c64aedacf45b8",
+            "37b202b70e46b59f"
+        ],
+        "x": 734,
+        "y": 819,
+        "w": 712,
+        "h": 242
+    },
+    {
+        "id": "ba292ae77a193bb3",
+        "type": "websocket-listener",
+        "path": "ws://localhost:8765",
+        "wholemsg": "false"
+    },
+    {
+        "id": "41932eae50b8d9da",
+        "type": "websocket-listener",
+        "path": "ws://192.168.12.20/rosbridge/",
+        "wholemsg": "false"
+    },
+    {
+        "id": "2903d9718a0a35a6",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "aabc30ab2c7a7a20",
+        "type": "ui_tab",
+        "name": "MiR Information ",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "37c3455807361744",
+        "type": "ui_group",
+        "name": "MiR Information",
+        "tab": "aabc30ab2c7a7a20",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c22ca010bbd04c0c",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "c2b314d0e4187791",
+        "type": "ui_group",
+        "name": "MiR Gauge",
+        "tab": "aabc30ab2c7a7a20",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c6b25bc3627d9696",
+        "type": "modbus-client",
+        "name": "Lan modbus MiR",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.12.20",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "abe37586cde20cf9",
+        "type": "FINS Connection",
+        "name": "",
+        "host": "192.168.12.123",
+        "port": "9600",
+        "MODE": "",
+        "MODEType": "NX",
+        "protocol": "",
+        "protocolType": "udp",
+        "ICF": "0x80",
+        "DNA": "0",
+        "DA1": "123",
+        "DA2": "0",
+        "SNA": "0",
+        "SA1": "126",
+        "SA2": "0",
+        "autoConnect": true
+    },
+    {
+        "id": "152aadb343446599",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e363c145d86e42b0",
+        "type": "mqtt-broker",
+        "name": "MiR MQTT",
+        "broker": "192.168.10.122",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0432f57f95c72ef1",
+        "type": "http request",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "Status",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.12.20/api/v2.0.0/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Authorization",
+                "valueType": "other",
+                "valueValue": "Basic RGlzdHJpYnV0b3I6NjJmMmYwZjFlZmYxMGQzMTUyYzk1ZjZmMDU5NjU3NmU0ODJiYjhlNDQ4MDY0MzNmNGNmOTI5NzkyODM0YjAxNA=="
+            },
+            {
+                "keyType": "other",
+                "keyValue": "Accept-Language",
+                "valueType": "other",
+                "valueValue": "en_US"
+            }
+        ],
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "f7622aa28e0b7b62"
+            ]
+        ]
+    },
+    {
+        "id": "f7622aa28e0b7b62",
+        "type": "function",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "data",
+        "func": "var data = JSON.parse(msg.payload);\nvar batteryPercentage = data.battery_percentage;\nmsg.batteryPercentage = batteryPercentage;\n\nvar orientation = data.position.orientation;\nmsg.orientation = orientation;\n\nvar statetext = data.state_text;\nmsg.statetext= statetext;\n\nvar xposition = data.position.x * 18.825;\nmsg.xposition = xposition;\n\nvar yposition = data.position.y * 19.541;\nmsg.yposition = yposition;\n\n\n\nvar missiontext = data.mission_text;\nmsg.missiontext = missiontext;\n\nvar velocity = data.velocity.linear;\nmsg.velocity = velocity;\n\nvar moved = data.moved;\nmsg.moved = moved / 1000;\n\nvar batterytimeremaining = data.battery_time_remaining;\nmsg.batterytimeremaining = batterytimeremaining / 60 / 60;\n\n\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "73bc7e124874fb7a",
+                "d20ee804b80e1e79",
+                "c029ec44061b6ced",
+                "9bad30fd9da67eca",
+                "b9d676d6572c770f",
+                "c65819b5ef7ef3cf",
+                "22d1e33678fba1ce",
+                "dc0b66208bc2c498",
+                "1a25a2668f69636b",
+                "f02b173289fb4a87",
+                "0d5406fa56f6336a",
+                "9eddb5d26008782a",
+                "33cc88ef5d85f0f9"
+            ]
+        ]
+    },
+    {
+        "id": "208034c9f6e1604b",
+        "type": "inject",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "0432f57f95c72ef1"
+            ]
+        ]
+    },
+    {
+        "id": "73bc7e124874fb7a",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "batteryPercentage",
+                "pt": "global",
+                "to": "$round(msg.batteryPercentage,0)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 400,
+        "wires": [
+            [
+                "47f5dfc39ca1c5e3"
+            ]
+        ]
+    },
+    {
+        "id": "399632eec4f5133e",
+        "type": "comment",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "MIR Status",
+        "info": "",
+        "x": 100,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b9d676d6572c770f",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "yposition",
+                "pt": "msg",
+                "to": "$round(msg.yposition,2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 320,
+        "wires": [
+            [
+                "b589701b5924066a"
+            ]
+        ]
+    },
+    {
+        "id": "9bad30fd9da67eca",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "xposition",
+                "pt": "msg",
+                "to": "$round(msg.xposition,2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 280,
+        "wires": [
+            [
+                "179b400c803f5334",
+                "4149b95ff6437fe5"
+            ]
+        ]
+    },
+    {
+        "id": "d20ee804b80e1e79",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "orientation",
+                "pt": "msg",
+                "to": "$round(msg.orientation,2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a25a2668f69636b",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(msg.batterytimeremaining,2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "5133978fcc0ecb52"
+            ]
+        ]
+    },
+    {
+        "id": "22d1e33678fba1ce",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "velocity",
+                "pt": "global",
+                "to": "$round(msg.velocity,2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 360,
+        "wires": [
+            [
+                "5478f2d022260709"
+            ]
+        ]
+    },
+    {
+        "id": "dc0b66208bc2c498",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(msg.moved,2)\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 200,
+        "wires": [
+            [
+                "429798b027892f59"
+            ]
+        ]
+    },
+    {
+        "id": "b589701b5924066a",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Ypos",
+                "pt": "global",
+                "to": "yposition",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "179b400c803f5334",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Xpos",
+                "pt": "global",
+                "to": "xposition",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f02b173289fb4a87",
+        "type": "change",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "status",
+                "pt": "global",
+                "to": "statetext",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0d5406fa56f6336a",
+        "type": "debug",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "Ypos",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "yposition",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 390,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9eddb5d26008782a",
+        "type": "debug",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "Xpos",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "xposition",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 390,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c029ec44061b6ced",
+        "type": "ui_text",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "37c3455807361744",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MiR Status",
+        "format": "{{msg.statetext}}",
+        "layout": "row-spread",
+        "className": "text",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 730,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "15784f7d2897bf9a",
+        "type": "ui_text",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "c22ca010bbd04c0c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "X POS.",
+        "format": "{{msg.xposition}}",
+        "layout": "row-spread",
+        "className": "text",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1040,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "f762a245475b659c",
+        "type": "ui_text",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "c22ca010bbd04c0c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Y POS.",
+        "format": "{{msg.yposition}}",
+        "layout": "row-spread",
+        "className": "text",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1020,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "0e4c7a0c6a2ec882",
+        "type": "ui_text",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "c22ca010bbd04c0c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Orientation",
+        "format": "{{msg.orientation}}",
+        "layout": "row-spread",
+        "className": "text",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 850,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "429798b027892f59",
+        "type": "ui_text",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "37c3455807361744",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Miles Accu.",
+        "format": "{{msg.payload}} km.",
+        "layout": "row-spread",
+        "className": "text",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 850,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c65819b5ef7ef3cf",
+        "type": "ui_text",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "37c3455807361744",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Mission text",
+        "format": "{{msg.missiontext}}",
+        "layout": "row-spread",
+        "className": "text",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 730,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "47f5dfc39ca1c5e3",
+        "type": "ui_gauge",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "",
+        "group": "c2b314d0e4187791",
+        "order": 2,
+        "width": 3,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Battery Percentage",
+        "label": "%",
+        "format": "{{msg.batteryPercentage}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 870,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5478f2d022260709",
+        "type": "ui_gauge",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "",
+        "group": "c2b314d0e4187791",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "MiR Speed",
+        "label": "m/s",
+        "format": "{{msg.velocity}}",
+        "min": 0,
+        "max": "2",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "speed",
+        "x": 850,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5133978fcc0ecb52",
+        "type": "ui_gauge",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "",
+        "group": "c2b314d0e4187791",
+        "order": 3,
+        "width": 3,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Battery time remaining",
+        "label": "hr.",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "15",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 880,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8a9205b984c64c10",
+        "type": "ui_template",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "37c3455807361744",
+        "name": "Clock Toolbar",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n    $(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString('es-ES'));\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "039246eb05a6030c",
+        "type": "ui_template",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "group": "37c3455807361744",
+        "name": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n   tspan{\n   font-size: 18px;\n   margin-top: 10px !important;\n   }\n    .nr-dashboard-cardtitle{\n    color: #4709eb !important;\n    }\n\n    .nr-dashboard-gauge-titlel {\n        //font-size: 18px !important;\n        font-weight: 500px !important;\n    }\n.text{\nfont-size: 18px !important;\n\n   }\n   .speed{\nfont-size: 20px !important;\nfont-weight: 500px !important;\n   }\n.nr-dashboard-cardpanel{\n    max-height: 32px;\n    min-height: 32px;\n    margin-left: 200 !important;\n    margin-top: 10px !important;\n    margin-bottom: 12px;\n    font-weight: 500 !important;\n    font-size: 15px !important;\n    \n}\n\n   \n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 100,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33cc88ef5d85f0f9",
+        "type": "debug",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "orientation",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "orientation",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 410,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "285ea0670eabbfbc",
+        "type": "ping",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "protocol": "IPv4",
+        "mode": "timed",
+        "name": "MiR WiFi",
+        "host": "192.168.10.120",
+        "timer": "20",
+        "inputs": 0,
+        "x": 240,
+        "y": 420,
+        "wires": [
+            [
+                "17562d4a87b2f0fe"
+            ]
+        ]
+    },
+    {
+        "id": "17562d4a87b2f0fe",
+        "type": "debug",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "MiR Signal WiFi192.168.10.120",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 450,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4149b95ff6437fe5",
+        "type": "FINS Write",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "Xposition D104",
+        "connection": "abe37586cde20cf9",
+        "addressType": "str",
+        "address": "D103",
+        "dataType": "msg",
+        "data": "payload",
+        "msgPropertyType": "str",
+        "msgProperty": "payload",
+        "x": 1040,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7df4bbe074a98bb9",
+        "type": "ping",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "protocol": "IPv4",
+        "mode": "timed",
+        "name": "MiR LAN",
+        "host": "192.168.12.20",
+        "timer": "20",
+        "inputs": 0,
+        "x": 240,
+        "y": 480,
+        "wires": [
+            [
+                "7dcb00add71ed909"
+            ]
+        ]
+    },
+    {
+        "id": "7dcb00add71ed909",
+        "type": "debug",
+        "z": "b940cdea94cfab16",
+        "g": "f7516f6b3eb009ef",
+        "name": "MiR Signal LAN 192.168.12.20",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 450,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "d8ca914e65a42874",
+        "type": "http request",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.12.20/api/v2.0.0/mission_queue",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Authorization",
+                "valueType": "other",
+                "valueValue": "Basic RGlzdHJpYnV0b3I6NjJmMmYwZjFlZmYxMGQzMTUyYzk1ZjZmMDU5NjU3NmU0ODJiYjhlNDQ4MDY0MzNmNGNmOTI5NzkyODM0YjAxNA=="
+            },
+            {
+                "keyType": "other",
+                "keyValue": "Accept-Language",
+                "valueType": "other",
+                "valueValue": "en_US"
+            },
+            {
+                "keyType": "other",
+                "keyValue": "Body",
+                "valueType": "msg",
+                "valueValue": "playload"
+            }
+        ],
+        "x": 1490,
+        "y": 100,
+        "wires": [
+            [
+                "c87c4ea573558ff8",
+                "a8526fabde6e48f0"
+            ]
+        ]
+    },
+    {
+        "id": "c87c4ea573558ff8",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "mission_id",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b6c052fb4e4306e6",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "mission_id",
+        "func": "msg.payload = {\n    mission_id: msg.payload\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 100,
+        "wires": [
+            [
+                "d8ca914e65a42874"
+            ]
+        ]
+    },
+    {
+        "id": "ed86d5c919130cc2",
+        "type": "comment",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "MIR Mission Order",
+        "info": "",
+        "x": 890,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a8526fabde6e48f0",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "state",
+        "func": "var data = JSON.parse(msg.payload);\nconst state=data.state;\n\nmsg.payload=state;\nif (state ==\"Pending\"){\n    flow.set(\"state\",1)\n    flow.set(\"rotor\",0)\n    flow.set(\"rectifier\",0)\n    flow.set(\"misson\",0)\n    flow.set(\"rotormem\",0)\n    flow.set(\"rectifiermem\",0)\n    flow.set(\"run\",1)\n\n}else{\n    msg.payload=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 100,
+        "wires": [
+            [
+                "861a4ba79cbc832b"
+            ]
+        ]
+    },
+    {
+        "id": "b337eadd46e9af1c",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "state_id IDV.",
+        "func": "msg.payload = {\n    \n    state_id: msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 240,
+        "wires": [
+            [
+                "cec8e751f1d71609"
+            ]
+        ]
+    },
+    {
+        "id": "818aecb6bce50318",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "Run",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "3",
+        "payloadType": "num",
+        "x": 870,
+        "y": 180,
+        "wires": [
+            [
+                "b337eadd46e9af1c"
+            ]
+        ]
+    },
+    {
+        "id": "cec8e751f1d71609",
+        "type": "http request",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.12.20/api/v2.0.0/status",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Authorization",
+                "valueType": "other",
+                "valueValue": "Basic RGlzdHJpYnV0b3I6NjJmMmYwZjFlZmYxMGQzMTUyYzk1ZjZmMDU5NjU3NmU0ODJiYjhlNDQ4MDY0MzNmNGNmOTI5NzkyODM0YjAxNA=="
+            },
+            {
+                "keyType": "other",
+                "keyValue": "Accept-Language",
+                "valueType": "other",
+                "valueValue": "en_US"
+            },
+            {
+                "keyType": "other",
+                "keyValue": "Body",
+                "valueType": "msg",
+                "valueValue": "playload"
+            }
+        ],
+        "x": 1230,
+        "y": 200,
+        "wires": [
+            [
+                "0cb7e6997ec4e68a",
+                "af2e5ef47aba144c"
+            ]
+        ]
+    },
+    {
+        "id": "0cb7e6997ec4e68a",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "debug 112",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f6a6ae578db2ae29",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "Pause",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 870,
+        "y": 220,
+        "wires": [
+            [
+                "b337eadd46e9af1c"
+            ]
+        ]
+    },
+    {
+        "id": "861a4ba79cbc832b",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "state",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1650,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "af2e5ef47aba144c",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "end",
+        "func": "var data = JSON.parse(msg.payload);\nconst joint = data.mode_text;\n\nmsg.payload = joint;\nif (joint ==\"Mission\"){\n       flow.set(\"run\",0)\n       flow.set(\"stop\",0)\n       flow.set(\"state\",0)\n\n}else{\n    msg.payload=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 200,
+        "wires": [
+            [
+                "2e0c8a85968b8e91"
+            ]
+        ]
+    },
+    {
+        "id": "2e0c8a85968b8e91",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "joint",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "345c77644b2530a0",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "mission&QR",
+        "func": "const status = global.get(\"status\")\nconst mission = flow.get(\"mission\")\nconst state = flow.get(\"state\")\nconst ID = flow.get(\"ID\")\n\n if(ID==10){\n     flow.set(\"manual\",0)\n }\n\n if ((status == \"Pause\")  ) {\n \n     msg.payload =\"010ce346-4738-11ee-a444-000e8eacb213\";\n\n}else{ \n    msg.payload = \"\";\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 100,
+        "wires": [
+            [
+                "b6c052fb4e4306e6"
+            ]
+        ]
+    },
+    {
+        "id": "196e70d2925c03ce",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "M_Modbus",
+        "func": "msg.payload = msg.payload[\"0\"];\n\nif (flow.get(\"manual\") == 0 && msg.payload == 1) {\n    flow.set(\"manual\",1);\n    //flow.set(\"standbymode\",0)\n}else{\n    msg.payload=\"\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "e2f4b416f1062d0d"
+            ]
+        ]
+    },
+    {
+        "id": "258b4eb05e4319a3",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "manual",
+        "rules": [
+            {
+                "t": "set",
+                "p": "manual",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 120,
+        "wires": [
+            [
+                "73459ef3bd8826eb"
+            ]
+        ]
+    },
+    {
+        "id": "3b0fdbd30ad20a1a",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "MANUAL=0",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "258b4eb05e4319a3"
+            ]
+        ]
+    },
+    {
+        "id": "3b4a07551743abc3",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "MANUAL=1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "258b4eb05e4319a3"
+            ]
+        ]
+    },
+    {
+        "id": "e2f4b416f1062d0d",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "M_Modbus",
+        "rules": [
+            {
+                "t": "set",
+                "p": "MModbus",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 60,
+        "wires": [
+            [
+                "09c41e79043d1412"
+            ]
+        ]
+    },
+    {
+        "id": "09c41e79043d1412",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "M_Modbus",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 650,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "73459ef3bd8826eb",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "manual",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 300,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b84993097ce01510",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "ef5bc43dfbcc5195",
+        "name": "Master On",
+        "func": "msg.payload = msg.payload[\"0\"];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 260,
+        "wires": [
+            [
+                "23b4bd3ce6cf1f37"
+            ]
+        ]
+    },
+    {
+        "id": "38a5b311ae185555",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "ef5bc43dfbcc5195",
+        "name": "Master on",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 660,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "23b4bd3ce6cf1f37",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "ef5bc43dfbcc5195",
+        "name": "Master on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mas",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 260,
+        "wires": [
+            [
+                "38a5b311ae185555"
+            ]
+        ]
+    },
+    {
+        "id": "0ed098a214eb64f8",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "Start",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 870,
+        "y": 100,
+        "wires": [
+            [
+                "bc4ea4a708ba957d"
+            ]
+        ]
+    },
+    {
+        "id": "bc4ea4a708ba957d",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "manual=0",
+        "property": "manual",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1020,
+        "y": 100,
+        "wires": [
+            [],
+            [
+                "345c77644b2530a0"
+            ]
+        ]
+    },
+    {
+        "id": "fc1d1960baa6a83d",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "reset manual mode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 120,
+        "wires": [
+            [
+                "83258be9e1e2fe9a"
+            ]
+        ]
+    },
+    {
+        "id": "ae4701e17125863d",
+        "type": "link in",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "link in 3",
+        "links": [
+            "949c86faf73367f5",
+            "e615576d2161d78d"
+        ],
+        "x": 945,
+        "y": 140,
+        "wires": [
+            [
+                "1c3da580b24d9096"
+            ]
+        ]
+    },
+    {
+        "id": "b18d39cffb552f3d",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "Run =3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 200,
+        "wires": [
+            [
+                "b337eadd46e9af1c"
+            ]
+        ]
+    },
+    {
+        "id": "f7ba6c86180bb854",
+        "type": "link in",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "link in 4",
+        "links": [
+            "e4e68aaa32f036fb",
+            "2759bb0bedb67dfc"
+        ],
+        "x": 415,
+        "y": 160,
+        "wires": [
+            [
+                "fc1d1960baa6a83d"
+            ]
+        ]
+    },
+    {
+        "id": "83258be9e1e2fe9a",
+        "type": "modbus-write",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "41005",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1005",
+        "quantity": "1",
+        "server": "c6b25bc3627d9696",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 670,
+        "y": 120,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8336abb79d270148",
+        "type": "modbus-read",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "Modbus 41005",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1005",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "196e70d2925c03ce"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0595786526a144f3",
+        "type": "modbus-read",
+        "z": "d560d1d7d4ef24a8",
+        "g": "ef5bc43dfbcc5195",
+        "name": "Master on 41131",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1131",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "b84993097ce01510"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f08b47722f02f98a",
+        "type": "modbus-read",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": " 41141-41151",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1141",
+        "quantity": "12",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 130,
+        "y": 900,
+        "wires": [
+            [
+                "513ee5d6c1288261",
+                "5f3bbe008cd9db21",
+                "aafbc68521ad942a",
+                "40205c9a363df148",
+                "be738433ce268791",
+                "e2b8790339dbfcf7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5f3bbe008cd9db21",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "fop3",
+        "func": "msg.payload = msg.payload[\"4\"];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 900,
+        "wires": [
+            [
+                "cf0dfe2c0fcc3570"
+            ]
+        ]
+    },
+    {
+        "id": "34b65f638ce3be11",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "F_O/P 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "fop1",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 980,
+        "wires": [
+            [
+                "ce93a1d5fab2931f"
+            ]
+        ]
+    },
+    {
+        "id": "ce93a1d5fab2931f",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "F_O/P 1",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 620,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "aafbc68521ad942a",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "fop2",
+        "func": "msg.payload = msg.payload[\"2\"];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 940,
+        "wires": [
+            [
+                "e84cafacfe24b66f"
+            ]
+        ]
+    },
+    {
+        "id": "e84cafacfe24b66f",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "F_OP 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "fop2",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 940,
+        "wires": [
+            [
+                "21d88fd517fc5b9b"
+            ]
+        ]
+    },
+    {
+        "id": "21d88fd517fc5b9b",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "F_O/P 2",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 580,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "513ee5d6c1288261",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "fop1",
+        "func": "msg.payload = msg.payload[\"0\"];\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 980,
+        "wires": [
+            [
+                "34b65f638ce3be11"
+            ]
+        ]
+    },
+    {
+        "id": "cf0dfe2c0fcc3570",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "F_O/P 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "fop3",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 900,
+        "wires": [
+            [
+                "0c8e2a6b54de6324"
+            ]
+        ]
+    },
+    {
+        "id": "0c8e2a6b54de6324",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "F_O/P 3",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 540,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "ab2d850d7fa0fb2c",
+        "type": "comment",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "Front scanner output",
+        "info": "",
+        "x": 370,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "66af781a432a56b9",
+        "type": "websocket out",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "",
+        "server": "41932eae50b8d9da",
+        "client": "",
+        "x": 1200,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "cbfe425e6dcbc939",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "joystick",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "2ae86e4bb9bae2ce",
+        "type": "websocket in",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "",
+        "server": "41932eae50b8d9da",
+        "client": "",
+        "x": 1200,
+        "y": 460,
+        "wires": [
+            [
+                "09baa5ae81deea22",
+                "59a02762ee5c629c"
+            ]
+        ]
+    },
+    {
+        "id": "1ac9189309ff1863",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "M_Mode 0.1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"op\":\"call_service\",\"id\":\"call_service:/mirsupervisor/setRobotState:5\",\"service\":\"/mirsupervisor/setRobotState\",\"type\":\"mirSupervisor/SetState\",\"args\":{\"robotState\":11,\"web_session_id\":\"1692612165482-89.04838447096344\"}}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "f4733fd43b930e08",
+                "9c796f97fa389800"
+            ]
+        ]
+    },
+    {
+        "id": "09baa5ae81deea22",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "filte payload",
+        "func": "const payload = JSON.parse(msg.payload)\nconst op = payload.op\nnode.log(op)\nif (op === \"service_response\") {\n    // get joystick token\n    const joystick = payload.values.joystick_token\n\n    flow.set(\"joystick_token\", joystick)\n\n    msg.payload = \"got joystick token :\" + joystick\n} else if (op === \"publish\") {\n    const topic = payload.topic\n    if (topic === \"/diagnostics_agg\") {\n        // get hardware health\n        let cellValues = payload.msg.status.filter((obj) => obj.name === \"/Power System/Battery Management System\")[0].values\n        cellValues = cellValues.filter((val) => val.key.includes(\"Cell voltage\"))\n        cellValues = cellValues.map((val) => ({\n            value: val.value,\n            cell: JSON.parse(val.key).args.cell\n        }))\n        msg.payload = cellValues\n    }\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 580,
+        "wires": [
+            [
+                "cbfe425e6dcbc939"
+            ]
+        ]
+    },
+    {
+        "id": "f4733fd43b930e08",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "N/R",
+        "func": "\nconst manual = flow.get(\"manual\")\nconst token = flow.get(\"joystick_token\")\n\n//Manual form node-red\nif (manual === 1) {\n    \n    if (token === \"\") {\n        msg.payload = msg.payload;\n    } else {\n        msg.payload=\"\"\n    }\n} else {\n    msg.payload = \"\";\n    flow.set(\"joystick_token\",\"\")\n}\n\n\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 400,
+        "wires": [
+            [
+                "66af781a432a56b9"
+            ]
+        ]
+    },
+    {
+        "id": "9c796f97fa389800",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "N/R",
+        "func": "msg.payload = flow.get(\"joystick_token\")\nmsg.manual = flow.get(\"manual\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 440,
+        "wires": [
+            [
+                "ae97372c16be4f3b",
+                "9dfe30a881d233cf",
+                "3751ecb9ef85f4a9"
+            ]
+        ]
+    },
+    {
+        "id": "ae97372c16be4f3b",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "joystick_token",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 580,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "9dfe30a881d233cf",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "manual",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "manual",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 440,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "59a02762ee5c629c",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "debug 113",
+        "active": false,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "5ba8d4cbade20baf",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "M_Mode 0.1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"op\":\"subscribe\",\"id\":\"subscribe:/diagnostics_agg:1\",\"type\":\"diagnostic_msgs/DiagnosticArray\",\"topic\":\"/diagnostics_agg\",\"compression\":\"none\",\"throttle_rate\":0,\"queue_length\":0}",
+        "payloadType": "json",
+        "x": 930,
+        "y": 380,
+        "wires": [
+            [
+                "66af781a432a56b9"
+            ]
+        ]
+    },
+    {
+        "id": "402c8bf22f641d3c",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "0.1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 680,
+        "wires": [
+            [
+                "b26a4d54d3138da9",
+                "874d669deaeaadc0",
+                "7fef660868080d39",
+                "73ee54c7654677c2"
+            ]
+        ]
+    },
+    {
+        "id": "70ed748e87038a1f",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "Stand by mode",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"op\":\"call_service\",\"id\":\"call_service:/mirsupervisor/setRobotState:13\",\"service\":\"/mirsupervisor/setRobotState\",\"args\":{\"robotState\":4,\"web_session_id\":\"7ohiq8vlotvcd4smu0li754cb1\"}}",
+        "payloadType": "json",
+        "x": 860,
+        "y": 420,
+        "wires": [
+            [
+                "66af781a432a56b9"
+            ]
+        ]
+    },
+    {
+        "id": "37d4548741ee2bf8",
+        "type": "link out",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "77eb8590c752c063"
+        ],
+        "x": 655,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "d7da65288894fe90",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "Stand by mode",
+        "func": "const ID = global.get(\"ID\")\nconst yPosition = global.get(\"yPosition\")\nconst manual = flow.get(\"manual\")\nconst roller = global.get(\"roller\")\nconst stop = flow.get(\"stop\")\n\nif(stop==1){\n    msg.payload= { \"op\": \"call_service\", \"id\": \"call_service:/mirsupervisor/setRobotState:13\", \"service\": \"/mirsupervisor/setRobotState\", \"args\": { \"robotState\": 4, \"web_session_id\": \"7ohiq8vlotvcd4smu0li754cb1\" } }\n\n}else{\n    msg.payload=\"\";\n}\nreturn msg;\n//(ID==roller && manual==0 && yPosition < 5 )",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 520,
+        "wires": [
+            [
+                "af4e47d0e7edc8bd",
+                "c18ca1a9c4fe1a1e"
+            ]
+        ]
+    },
+    {
+        "id": "77eb8590c752c063",
+        "type": "link in",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "link in 2",
+        "links": [
+            "37d4548741ee2bf8"
+        ],
+        "x": 735,
+        "y": 520,
+        "wires": [
+            [
+                "d7da65288894fe90"
+            ]
+        ]
+    },
+    {
+        "id": "ed3c2ecb7e876eb6",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "payload=1",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "b1627a8ddfd933b1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b1627a8ddfd933b1",
+        "type": "delay",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 680,
+        "y": 560,
+        "wires": [
+            [
+                "b78fd3883459c5b1",
+                "37d4548741ee2bf8"
+            ]
+        ]
+    },
+    {
+        "id": "b78fd3883459c5b1",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "stop=0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "stop",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "949c86faf73367f5",
+        "type": "link out",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "ae4701e17125863d"
+        ],
+        "x": 1135,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "af4e47d0e7edc8bd",
+        "type": "delay",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 520,
+        "wires": [
+            [
+                "949c86faf73367f5"
+            ]
+        ]
+    },
+    {
+        "id": "3751ecb9ef85f4a9",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "manual=1",
+        "property": "manual",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 440,
+        "y": 480,
+        "wires": [
+            [
+                "1da10d261492e908"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e4e68aaa32f036fb",
+        "type": "link out",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "f7ba6c86180bb854"
+        ],
+        "x": 695,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "a1f46a9a4a396b91",
+        "type": "comment",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "MANUAL CONTROL",
+        "info": "",
+        "x": 150,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "1da10d261492e908",
+        "type": "delay",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 480,
+        "wires": [
+            [
+                "e4e68aaa32f036fb"
+            ]
+        ]
+    },
+    {
+        "id": "b26a4d54d3138da9",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "FW stop",
+        "func": "const ID = global.get(\"ID\")\nconst yPosition = global.get(\"yPosition\")\nconst manual = flow.get(\"manual\")\nconst roller =global.get(\"roller\")\nconst vilosity = global.get(\"velocity\");\nconst FW =flow.get(\"FW\");\n\nif (manual == 1 && ID == roller && yPosition < 3 && vilosity ==0 && FW==1){\n    msg.payload = 1;\n   flow.set(\"stop\",1)\n   flow.set(\"manual\", 0)\n} else {\n    msg.payload = 0;\n    flow.set(\"stop\", 0)\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 560,
+        "wires": [
+            [
+                "ed3c2ecb7e876eb6"
+            ]
+        ]
+    },
+    {
+        "id": "e817b5c8892d1eee",
+        "type": "modbus-write",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "Current roller no",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1039",
+        "quantity": "1",
+        "server": "c6b25bc3627d9696",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1800,
+        "y": 400,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b7696e002eb188b2",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "ID",
+        "func": "msg.payload=global.get(\"ID\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 400,
+        "wires": [
+            [
+                "e817b5c8892d1eee"
+            ]
+        ]
+    },
+    {
+        "id": "5e4e9964be9413ec",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "0.1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1530,
+        "y": 400,
+        "wires": [
+            [
+                "b7696e002eb188b2"
+            ]
+        ]
+    },
+    {
+        "id": "19b46377f2f6fa15",
+        "type": "modbus-read",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "Transfer Finished",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1153",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 1560,
+        "y": 460,
+        "wires": [
+            [
+                "212b794a89774e29"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "70c8e5ed244cde8e",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "T/F",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "58173215436e239f",
+        "type": "modbus-write",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "Transfer Status",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1037",
+        "quantity": "1",
+        "server": "c6b25bc3627d9696",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1880,
+        "y": 500,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "212b794a89774e29",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "T/F",
+        "func": "msg.payload = msg.payload[\"0\"];\nif(msg.payload==1){\n    msg.payload=0;\n}else{\n    msg.payload=2;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1730,
+        "y": 460,
+        "wires": [
+            [
+                "70c8e5ed244cde8e",
+                "0b069cb4a52d0a14"
+            ]
+        ]
+    },
+    {
+        "id": "0b069cb4a52d0a14",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "to MiR",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "empty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1850,
+        "y": 460,
+        "wires": [
+            [
+                "58173215436e239f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4a8e772f20ae81ac",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "T/S",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1530,
+        "y": 360,
+        "wires": [
+            [
+                "a1297c73bcd5e7dc"
+            ]
+        ]
+    },
+    {
+        "id": "a1297c73bcd5e7dc",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "Initial points",
+        "func": "\nflow.set(\"stop\", 0)\nflow.set(\"manual\", 0)\nflow.set(\"standbymode\", 0)\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27f9f9209f9af12b",
+        "type": "modbus-read",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "PB Alarm Reset",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1155",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 1560,
+        "y": 560,
+        "wires": [
+            [
+                "bd2cbdd3ac6a0c93"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bd2cbdd3ac6a0c93",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "reset",
+        "func": "msg.payload = msg.payload[\"0\"];\nif(msg.payload==1){\n    msg.payload=0;\n    flow.set(\"manual\",0);\n    flow.set(\"stop\",0)\n    flow.set(\"standbymode\",1)\n}else{\n    msg.payload=\"\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1710,
+        "y": 560,
+        "wires": [
+            [
+                "25aa4015179d4dba",
+                "1ad73df29a4c0fd7"
+            ]
+        ]
+    },
+    {
+        "id": "25aa4015179d4dba",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "reset",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1830,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "b6270f7be9215a65",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "623007695c913157",
+        "name": "",
+        "property": "websocket",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "connected",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "disconnected",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1690,
+        "y": 680,
+        "wires": [
+            [
+                "4c1dd62c3310b367"
+            ],
+            [
+                "5457f7845e6fe4fa"
+            ]
+        ]
+    },
+    {
+        "id": "4c1dd62c3310b367",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "623007695c913157",
+        "name": "debug 114",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1890,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "5457f7845e6fe4fa",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "623007695c913157",
+        "name": "debug 115",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1890,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "97f16462242b379a",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "623007695c913157",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1530,
+        "y": 680,
+        "wires": [
+            [
+                "b6270f7be9215a65"
+            ]
+        ]
+    },
+    {
+        "id": "bdce8a73755136eb",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "623007695c913157",
+        "name": "function 2",
+        "func": "const websocket = String(global.get(\"websocket\"));\n\nif(websocket ==\"connected\"){\n    msg.payload=1;\n}else{\n    msg.payload = websocket;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 760,
+        "wires": [
+            [
+                "89e29ba24d1f35be"
+            ]
+        ]
+    },
+    {
+        "id": "89e29ba24d1f35be",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "623007695c913157",
+        "name": "debug 116",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1870,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "7a5b35793338e5d7",
+        "type": "inject",
+        "z": "d560d1d7d4ef24a8",
+        "g": "623007695c913157",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1550,
+        "y": 760,
+        "wires": [
+            [
+                "bdce8a73755136eb"
+            ]
+        ]
+    },
+    {
+        "id": "c18ca1a9c4fe1a1e",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "manual=0",
+        "property": "manual",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 840,
+        "y": 480,
+        "wires": [
+            [
+                "66af781a432a56b9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1c3da580b24d9096",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "1bdfb45fde9f0c4c",
+        "name": "manual=0",
+        "property": "manual",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1040,
+        "y": 160,
+        "wires": [
+            [
+                "b18d39cffb552f3d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "40205c9a363df148",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "rop3",
+        "func": "msg.payload = msg.payload[\"10\"];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 1060,
+        "wires": [
+            [
+                "cdfa45237b65327b"
+            ]
+        ]
+    },
+    {
+        "id": "35193ba94a6ed541",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "R_O/P 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "rop1",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1140,
+        "wires": [
+            [
+                "4e983e0b4247a6f1"
+            ]
+        ]
+    },
+    {
+        "id": "4e983e0b4247a6f1",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "R_O/P 1",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 620,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "be738433ce268791",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "rop2",
+        "func": "msg.payload = msg.payload[\"8\"];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 1100,
+        "wires": [
+            [
+                "94def268a65323c2"
+            ]
+        ]
+    },
+    {
+        "id": "94def268a65323c2",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "R_OP 2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "rop2",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1100,
+        "wires": [
+            [
+                "503889b84974b530"
+            ]
+        ]
+    },
+    {
+        "id": "503889b84974b530",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "R_O/P 2",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 580,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "e2b8790339dbfcf7",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "rop1",
+        "func": "msg.payload = msg.payload[\"6\"];\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 1140,
+        "wires": [
+            [
+                "35193ba94a6ed541"
+            ]
+        ]
+    },
+    {
+        "id": "cdfa45237b65327b",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "R_O/P 3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "rop3",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 1060,
+        "wires": [
+            [
+                "6e23f28e590db0ae"
+            ]
+        ]
+    },
+    {
+        "id": "6e23f28e590db0ae",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "R_O/P 3",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 540,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "f8dee3a42e8c6b30",
+        "type": "comment",
+        "z": "d560d1d7d4ef24a8",
+        "g": "e8a6349f675da287",
+        "name": "Rear scanner output",
+        "info": "",
+        "x": 370,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "592c18bfcd605e7b",
+        "type": "mqtt in",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "",
+        "topic": "camera/rear/Xposition",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "e363c145d86e42b0",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 860,
+        "y": 900,
+        "wires": [
+            [
+                "9d38075f9cfc2471"
+            ]
+        ]
+    },
+    {
+        "id": "70f730fbd616de90",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "debug 118",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "9d38075f9cfc2471",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "RpositionX",
+        "rules": [
+            {
+                "t": "set",
+                "p": "RpositionX",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 900,
+        "wires": [
+            [
+                "70f730fbd616de90",
+                "ad7f6a0cb73fe115"
+            ]
+        ]
+    },
+    {
+        "id": "874d669deaeaadc0",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "BW stop",
+        "func": "const ID = global.get(\"ID\")\nconst yPosition = global.get(\"yPosition\")\nconst manual = flow.get(\"manual\")\nconst roller =global.get(\"roller\")\nconst velocity = global.get(\"velocity\");\nconst BW =flow.get(\"BW\");\n\nif (manual == 1 && ID == roller && yPosition > -10  && velocity ==0 && BW==1){\n    \n   flow.set(\"stop\",1)\n   flow.set(\"manual\", 0)\n   flow.set(\"P4F\",0)\n    msg.payload = 1;\n    \n} else {\n   \n    flow.set(\"stop\", 0)\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 600,
+        "wires": [
+            [
+                "ed3c2ecb7e876eb6"
+            ]
+        ]
+    },
+    {
+        "id": "420c180a729d2bbb",
+        "type": "modbus-read",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "P4 Finished",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1017",
+        "quantity": "12",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 850,
+        "y": 1020,
+        "wires": [
+            [
+                "cdb60ce7f9d32a3f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "cdb60ce7f9d32a3f",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "P4",
+        "func": "msg.payload = msg.payload[\"0\"];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 1020,
+        "wires": [
+            [
+                "42fc6cca090ebbb6"
+            ]
+        ]
+    },
+    {
+        "id": "cdd2b5cd68453a66",
+        "type": "debug",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "debug 119",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "42fc6cca090ebbb6",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "P4F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "P4F",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 1020,
+        "wires": [
+            [
+                "cdd2b5cd68453a66"
+            ]
+        ]
+    },
+    {
+        "id": "f13c64e0b6f6e0c6",
+        "type": "modbus-write",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "P4F reset",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1017",
+        "quantity": "1",
+        "server": "c6b25bc3627d9696",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 660,
+        "y": 640,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "42e667a572096ab5",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "reset ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 640,
+        "wires": [
+            [
+                "f13c64e0b6f6e0c6"
+            ]
+        ]
+    },
+    {
+        "id": "7fef660868080d39",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "P4F reset",
+        "func": "const ID = global.get(\"ID\")\nconst yPosition = global.get(\"yPosition\")\nconst manual = flow.get(\"manual\")\nconst roller = global.get(\"roller\")\nconst velocity = global.get(\"velocity\");\nconst BW = flow.get(\"BW\");\nconst FW = flow.get(\"FW\");\n\nif(BW==1 && velocity==0 && ID==roller){\n    msg.payload=1;\n\n} else if (FW == 1 && velocity == 0 && ID == 0){\n    msg.payload = 1;\n\n}else{\n    msg.payload=0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 640,
+        "wires": [
+            [
+                "0ba1c75448d80447"
+            ]
+        ]
+    },
+    {
+        "id": "0ba1c75448d80447",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "reset=1",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 400,
+        "y": 640,
+        "wires": [
+            [
+                "42e667a572096ab5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5672f5bb123dccbe",
+        "type": "comment",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "Rear Camera",
+        "info": "",
+        "x": 830,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "f4603ae13add49bd",
+        "type": "comment",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "Point 4 Memory",
+        "info": "",
+        "x": 840,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "ad7f6a0cb73fe115",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "no_detect=1",
+        "func": "if(msg.payload=='no_detect'){\n    msg.payload=1;\n\n}else{\n    msg.payload=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 960,
+        "wires": [
+            [
+                "d74c64aedacf45b8"
+            ]
+        ]
+    },
+    {
+        "id": "d74c64aedacf45b8",
+        "type": "delay",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1220,
+        "y": 960,
+        "wires": [
+            [
+                "37b202b70e46b59f"
+            ]
+        ]
+    },
+    {
+        "id": "37b202b70e46b59f",
+        "type": "change",
+        "z": "d560d1d7d4ef24a8",
+        "g": "9472d8128bd5b566",
+        "name": "R-detect",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Rdetect",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1360,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa069d9d72872701",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "guid",
+        "func": "let move_payload = {\n    \"op\": \"publish\",\n    \"id\": \"publish:/joystick_vel:597\",\n    \"topic\": \"/joystick_vel\",\n    \"msg\": {\n        \"joystick_token\": \"\",\n        \"speed_command\": {\n            \"linear\": {\n                \"x\": msg.pos,\n                \"y\": 0,\n                \"z\": 0\n            },\n            \"angular\": {\n                \"x\": 0,\n                \"y\": 0,\n                \"z\": msg.ang\n            }\n        }\n    },\n    \"latch\": false\n}\nmove_payload.msg.joystick_token = flow.get(\"joystick_token\")\n// move_payload.msg.speed_command.linear.x = 1234\n// move_payload.msg.speed_command.angular.z = 123\n\nmsg.payload = move_payload\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 700,
+        "wires": [
+            [
+                "66af781a432a56b9"
+            ]
+        ]
+    },
+    {
+        "id": "73ee54c7654677c2",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "manual=1",
+        "property": "manual",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 260,
+        "y": 720,
+        "wires": [
+            [
+                "dcb8a12d219f494c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "dcb8a12d219f494c",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "Master on=1",
+        "property": "mas",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 720,
+        "wires": [
+            [
+                "70e7c1421b84c021",
+                "d7577b89349c35ae"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d4d14884161c189b",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "ang",
+        "func": "const positionX = global.get(\"positionX\")\n\nif (positionX > 10) {\n    msg.ang = 0.05;\n\n} else if (positionX < -10) {\n    msg.ang = -0.05;\n} else {\n    msg.ang = 0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 700,
+        "wires": [
+            [
+                "fa069d9d72872701"
+            ]
+        ]
+    },
+    {
+        "id": "b218002c53eaeaae",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "FOR",
+        "func": "const yPosition = global.get(\"yPosition\")\nconst manual =flow.get(\"manual\")\nconst ID = global.get(\"ID\")\nconst stop = flow.get(\"stop\")\nconst roller =global.get(\"roller\")\nconst fop1 = flow.get(\"fop1\") // fix = 0.2\nconst fop2 = flow.get(\"fop2\") // fix = 0.1\nconst fop3 = flow.get(\"fop3\") // fix = 0.0\nconst RD =roller-2;\n\nmsg.roller = roller\nif (fop3 == 1 || stop == 1) {\n  msg.pos = 0.0\n  return msg\n}\n\nif(ID==roller-1 ){\n  msg.pos =0.4\n\n}else if ( ID==roller){\n  \n  if (yPosition >= 0 && yPosition <= 100 && ID == roller){\n    var y = (yPosition * 0.2) / 100; // ประมวลผลตามสูตร\n    y = parseFloat(y.toFixed(2)); // ปัดเศษให้เหลือทศนิยม 1 ตำแหน่ง และแปลงกลับเป็นตัวเลข\n    msg.pos = y;\n    msg.speedzero = y; // กำหนดค่า output\n\n  } else if (yPosition < 0 && ID == roller) {\n    msg.pos = 0;\n    \n  }else{\n    msg.pos = 0.2;\n  }\n}else{\n   \n  msg.pos = fop1 == 1 ? 0.2 : fop2 == 1 ? 0.1 : ID == 3 ? 0.2 : ID == 4 ? 0.2 :  ID == 6 ? 0.2 : ID == 7 ? 0.2 : 0.7;\n}\nreturn msg; // ส่งค่า output ออกไป\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 700,
+        "wires": [
+            [
+                "d4d14884161c189b"
+            ]
+        ]
+    },
+    {
+        "id": "4c427402f55e5918",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "F-QR ",
+        "property": "detect",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 670,
+        "y": 700,
+        "wires": [
+            [
+                "58a7a9decede291c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "58a7a9decede291c",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "FW=1",
+        "property": "FW",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 810,
+        "y": 700,
+        "wires": [
+            [],
+            [
+                "b218002c53eaeaae"
+            ]
+        ]
+    },
+    {
+        "id": "215e2b772d3bcf80",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "BW=1",
+        "property": "BW",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 810,
+        "y": 740,
+        "wires": [
+            [],
+            [
+                "f9c982cd750bca26"
+            ]
+        ]
+    },
+    {
+        "id": "eb8f4c75644fee7f",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "guid",
+        "func": "let move_payload = {\n    \"op\": \"publish\",\n    \"id\": \"publish:/joystick_vel:597\",\n    \"topic\": \"/joystick_vel\",\n    \"msg\": {\n        \"joystick_token\": \"\",\n        \"speed_command\": {\n            \"linear\": {\n                \"x\": msg.pos,\n                \"y\": 0,\n                \"z\": 0\n            },\n            \"angular\": {\n                \"x\": 0,\n                \"y\": 0,\n                \"z\": msg.ang\n            }\n        }\n    },\n    \"latch\": false\n}\nmove_payload.msg.joystick_token = flow.get(\"joystick_token\")\n// move_payload.msg.speed_command.linear.x = 1234\n// move_payload.msg.speed_command.angular.z = 123\n\nmsg.payload = move_payload\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 740,
+        "wires": [
+            [
+                "66af781a432a56b9"
+            ]
+        ]
+    },
+    {
+        "id": "e391064660878a66",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "ang",
+        "func": "const RpositionX = flow.get(\"RpositionX\")\nconst positionX = global.get(\"positionX\")\n\nif (RpositionX > 10) {\n    msg.ang = -0.05;\n\n} else if (RpositionX < -10) {\n    msg.ang = 0.05;\n} else {\n    msg.ang = 0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 740,
+        "wires": [
+            [
+                "eb8f4c75644fee7f"
+            ]
+        ]
+    },
+    {
+        "id": "f9c982cd750bca26",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "BW",
+        "func": "const yPosition = global.get(\"yPosition\")\nconst manual =flow.get(\"manual\")\nconst ID = global.get(\"ID\")\nconst stop = flow.get(\"stop\")\nconst roller =global.get(\"roller\")\nconst rop1 = flow.get(\"rop1\") // fix = 0.2\nconst rop2 = flow.get(\"rop2\") // fix = 0.1\nconst rop3 = flow.get(\"rop3\") // fix = 0.0\n\n\nmsg.roller = roller\nif (rop3 == 1 || stop == 1) {\n  msg.pos = 0.0\n  return msg\n}\n\nif(ID==roller+1 ){\n  msg.pos =-0.2\n\n}else if ( ID==roller){\n  \n  if (yPosition < 0 && yPosition < -300 && ID == roller){\n    var y = (yPosition * 0.2) / 300; // ประมวลผลตามสูตร\n    y = parseFloat(y.toFixed(2)); // ปัดเศษให้เหลือทศนิยม 1 ตำแหน่ง และแปลงกลับเป็นตัวเลข\n    msg.pos = -y;\n    msg.speedzero = -y; // กำหนดค่า output\n\n  } else if (yPosition > -50 && ID == roller) {\n    msg.pos = 0;\n    \n  }else{\n    msg.pos = -0.2;\n  }\n}else{\n   \n  msg.pos = rop1 == 1 ? -0.2 : rop2 == 1 ? -0.1 : ID == 4 ? -0.2 : ID == 15 ? -0.2 : -0.5;\n}\nreturn msg; // ส่งค่า output ออกไป\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 740,
+        "wires": [
+            [
+                "e391064660878a66"
+            ]
+        ]
+    },
+    {
+        "id": "70e7c1421b84c021",
+        "type": "function",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "MiR  direction",
+        "func": "const ID = global.get(\"ID\")\nconst roller =global.get(\"roller\")\nconst manual = flow.get(\"manual\")\nconst vilosity = global.get(\"velocity\");\n\n\nif(ID > roller && vilosity==0){\nflow.set(\"BW\",1);\nflow.set(\"FW\",0);\n    \n} else if ( ID < roller && vilosity == 0){\n    flow.set(\"FW\", 1);\n    flow.set(\"BW\", 0);    \n}else{\n    msg.payload=\"\";\n    //flow.set(\"FW\", 0);\n    //flow.set(\"BW\", 0);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7577b89349c35ae",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "P4F",
+        "property": "P4F",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 550,
+        "y": 720,
+        "wires": [
+            [
+                "4c427402f55e5918"
+            ],
+            [
+                "d785202c521bcdfd"
+            ]
+        ]
+    },
+    {
+        "id": "d785202c521bcdfd",
+        "type": "switch",
+        "z": "d560d1d7d4ef24a8",
+        "g": "31783de502c3e921",
+        "name": "R-QR ",
+        "property": "Rdetect",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 670,
+        "y": 740,
+        "wires": [
+            [
+                "215e2b772d3bcf80"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1ad73df29a4c0fd7",
+        "type": "link out",
+        "z": "d560d1d7d4ef24a8",
+        "g": "50a97f3e6ca7d353",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "5030ecdd5d813534"
+        ],
+        "x": 1955,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "5030ecdd5d813534",
+        "type": "link in",
+        "z": "d560d1d7d4ef24a8",
+        "g": "f5972eb6cddbcf56",
+        "name": "link in 5",
+        "links": [
+            "1ad73df29a4c0fd7"
+        ],
+        "x": 215,
+        "y": 100,
+        "wires": [
+            [
+                "258b4eb05e4319a3"
+            ]
+        ]
+    },
+    {
+        "id": "1f3d628336b355c5",
+        "type": "change",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "x",
+        "rules": [
+            {
+                "t": "set",
+                "p": "positionX",
+                "pt": "global",
+                "to": "x",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 100,
+        "wires": [
+            [
+                "4a9067f55de01343"
+            ]
+        ]
+    },
+    {
+        "id": "6fe85d0fb95e3e28",
+        "type": "change",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "ID",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ID",
+                "pt": "global",
+                "to": "id",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "a6c1404d180a6b26"
+            ]
+        ]
+    },
+    {
+        "id": "a6c1404d180a6b26",
+        "type": "debug",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "ID",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "id",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 690,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a6ce8ffceae6597c",
+        "type": "status",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "",
+        "scope": [
+            "32cb7c0b9b1962e5"
+        ],
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "a828ca4164d8eb19",
+                "c8363719a0df9dbf"
+            ]
+        ]
+    },
+    {
+        "id": "a828ca4164d8eb19",
+        "type": "debug",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "status",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "abc",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 150,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4a9067f55de01343",
+        "type": "debug",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "X",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "x",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 690,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "ce4071f5fe731672",
+        "type": "debug",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "Z",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "z",
+        "targetType": "msg",
+        "statusVal": "z",
+        "statusType": "auto",
+        "x": 570,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6dc0a97760abb5ce",
+        "type": "change",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "y",
+        "rules": [
+            {
+                "t": "set",
+                "p": "yPosition",
+                "pt": "global",
+                "to": "y",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 140,
+        "wires": [
+            [
+                "5459ca9b93ce9d40"
+            ]
+        ]
+    },
+    {
+        "id": "5459ca9b93ce9d40",
+        "type": "debug",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "y",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "y",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 770,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4e745fcdc2e83b04",
+        "type": "comment",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "QR DATA READ",
+        "info": "",
+        "x": 200,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "32cb7c0b9b1962e5",
+        "type": "websocket in",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "",
+        "server": "ba292ae77a193bb3",
+        "client": "",
+        "x": 190,
+        "y": 100,
+        "wires": [
+            [
+                "28e9478a0f53a37d"
+            ]
+        ]
+    },
+    {
+        "id": "28e9478a0f53a37d",
+        "type": "function",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "qr value",
+        "func": "if(msg.payload == \"no detect\"){\n    msg.payload = \"no_detect\";\n}else{\n    var data = JSON.parse(msg.payload)\n    msg.id = data.id;\n    msg.x = data.x;\n    msg.y = data.y;\n    msg.z = data.z;\n    msg.payload = \"detected\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "1f3d628336b355c5",
+                "6dc0a97760abb5ce",
+                "ce4071f5fe731672",
+                "6fe85d0fb95e3e28",
+                "6fb7451a3651f16a"
+            ]
+        ]
+    },
+    {
+        "id": "6fb7451a3651f16a",
+        "type": "function",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "no_detect=1",
+        "func": "if(msg.payload=='no_detect'){\n    msg.payload=1;\n\n}else{\n    msg.payload=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 140,
+        "wires": [
+            [
+                "a6489f376fd2e56b"
+            ]
+        ]
+    },
+    {
+        "id": "471933ee96dd03e8",
+        "type": "change",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "detect",
+        "rules": [
+            {
+                "t": "set",
+                "p": "detect",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8363719a0df9dbf",
+        "type": "change",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "websocket",
+        "rules": [
+            {
+                "t": "set",
+                "p": "websocket",
+                "pt": "global",
+                "to": "status.text",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a6489f376fd2e56b",
+        "type": "delay",
+        "z": "0afd3702c3c4f74b",
+        "g": "2d6642222e1fa428",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "471933ee96dd03e8"
+            ]
+        ]
+    },
+    {
+        "id": "2a7869daeab2f444",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Point index",
+        "func": "const payload = msg.payload[\"0\"]-1;\n\nglobal.set(\"pointIndex\",payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "5dd745bfaaa48ab7"
+            ]
+        ]
+    },
+    {
+        "id": "39bd83aba0502e41",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 1] groud_id",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[0][\"group_id\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "8906c097c5b11e1b"
+            ]
+        ]
+    },
+    {
+        "id": "150728f8d3efb63f",
+        "type": "inject",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "T/S",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "131bf2f5b7d86403"
+            ]
+        ]
+    },
+    {
+        "id": "131bf2f5b7d86403",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Initial points",
+        "func": "global.set(\"points\",[{},{},{},{}])\n//global.set(\"stop\", 0)\n//global.set(\"manual\", 0)\n//global.set(\"standbymode\", 0)\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a78396f7a48ab1a7",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 1] roller_no",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[0][\"roller_no\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "5e137e85eb7715d9"
+            ]
+        ]
+    },
+    {
+        "id": "6f6464c41de73731",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 1] direction",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[0][\"direction\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 300,
+        "wires": [
+            [
+                "f14593938aecc7c4"
+            ]
+        ]
+    },
+    {
+        "id": "d80dfebdef148093",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 2] group_id",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[1][\"group_id\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 360,
+        "wires": [
+            [
+                "e2322228f21de3c7"
+            ]
+        ]
+    },
+    {
+        "id": "c3ada2c2081d89a7",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 2] roller_no",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[1][\"roller_no\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 400,
+        "wires": [
+            [
+                "c03175f72bb26472"
+            ]
+        ]
+    },
+    {
+        "id": "7070168d3fa6135e",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 2] direction",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[1][\"direction\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 440,
+        "wires": [
+            [
+                "ff39454e6a207983"
+            ]
+        ]
+    },
+    {
+        "id": "e7367ea6b3acf48c",
+        "type": "inject",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "6a3f01ec68f9e5dc"
+            ]
+        ]
+    },
+    {
+        "id": "6a3f01ec68f9e5dc",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "set roller to target",
+        "func": "const pointIndex = global.get(\"pointIndex\")\nconst points = global.get(\"points\")\n\nglobal.set(\"groupId\",points[pointIndex][\"group_id\"])\nglobal.set(\"roller\",points[pointIndex][\"roller_no\"])\nglobal.set(\"direction\",points[pointIndex][\"direction\"])\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 60,
+        "wires": [
+            [
+                "eea5d5ce4bca3680"
+            ]
+        ]
+    },
+    {
+        "id": "d437f5ecbd43725b",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 3] group_id",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[2][\"group_id\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 500,
+        "wires": [
+            [
+                "f0aa508da4a2f1f0"
+            ]
+        ]
+    },
+    {
+        "id": "dd041994aaa4d563",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 3] roller_no",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[2][\"roller_no\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "1d53961ba329f8b7"
+            ]
+        ]
+    },
+    {
+        "id": "0549cfe2d32250e2",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 3] direction",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[2][\"direction\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "dfa149785c032529"
+            ]
+        ]
+    },
+    {
+        "id": "92ca326c23666f21",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 4] group_id",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[3][\"group_id\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 640,
+        "wires": [
+            [
+                "b1569c31c9dc40c9"
+            ]
+        ]
+    },
+    {
+        "id": "ac9c8e006f255a0f",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 4] roller_no",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[3][\"roller_no\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 680,
+        "wires": [
+            [
+                "d2275dafd778b901"
+            ]
+        ]
+    },
+    {
+        "id": "f916697d813bfb19",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "[Point 4] direction",
+        "func": "const payload = msg.payload[\"0\"];\nlet points = global.get(\"points\")\n\npoints[3][\"direction\"] = payload\n\nglobal.set(\"points\", points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 720,
+        "wires": [
+            [
+                "4dc5f156a06c06f6"
+            ]
+        ]
+    },
+    {
+        "id": "5dd745bfaaa48ab7",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Point index",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 530,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8906c097c5b11e1b",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "groud_id",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "5e137e85eb7715d9",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "roller_no",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 640,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f14593938aecc7c4",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "direction",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e2322228f21de3c7",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "groud_id",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c03175f72bb26472",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "roller_no",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 640,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "ff39454e6a207983",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "direction",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f0aa508da4a2f1f0",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "groud_id",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "1d53961ba329f8b7",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "roller_no",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 640,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "dfa149785c032529",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "direction",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b1569c31c9dc40c9",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "groud_id",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d2275dafd778b901",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "roller_no",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 640,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "4dc5f156a06c06f6",
+        "type": "debug",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "direction",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "eea5d5ce4bca3680",
+        "type": "function",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "roller no",
+        "func": "const pointIndex = flow.get(\"pointIndex\")\nconst points = flow.get(\"points\")\n\n// const roller = flow.get(\"roller\", points[pointIndex][\"roller_no\"])\n// msg.payload =roller;\nmsg.payload = pointIndex + \",\"+ points[pointIndex][\"roller_no\"] + \",\" + JSON.stringify(points)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a1c35658daa9640",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41041",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1041",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "2a7869daeab2f444"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f47ebf79d63fa6e3",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41043",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1043",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 220,
+        "wires": [
+            [
+                "39bd83aba0502e41"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3da55376a4188e0f",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41045",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1045",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "a78396f7a48ab1a7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ece753446f14d437",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41047",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1047",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 300,
+        "wires": [
+            [
+                "6f6464c41de73731"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f4e02461713c078f",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41049",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1049",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "d80dfebdef148093"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "83784c9805b44ab0",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41051",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1051",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "c3ada2c2081d89a7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ca8a4f6baa4426f3",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41053",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1053",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "7070168d3fa6135e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "73a2743e9ba30bb0",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41055",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1055",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "d437f5ecbd43725b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8fb2f2ceb4814ab9",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41057",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1057",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 540,
+        "wires": [
+            [
+                "dd041994aaa4d563"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a0fdc5367e84e8d5",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41059",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1059",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 580,
+        "wires": [
+            [
+                "0549cfe2d32250e2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "35704c7d203d8096",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41061",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1061",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 640,
+        "wires": [
+            [
+                "92ca326c23666f21"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "cc9a3c24107bac8d",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41063",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1063",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 680,
+        "wires": [
+            [
+                "ac9c8e006f255a0f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2600299e7827707d",
+        "type": "modbus-read",
+        "z": "b7dc09b06b0816d5",
+        "g": "85d7d8ad45b65671",
+        "name": "Modbus 41065",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1065",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c6b25bc3627d9696",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "x": 140,
+        "y": 720,
+        "wires": [
+            [
+                "f916697d813bfb19"
+            ],
+            []
+        ]
+    }
+]

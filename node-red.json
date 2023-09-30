@@ -1,0 +1,22 @@
+[
+  {
+    "id": "f7fb20376e9bae6f",
+    "type": "websocket out",
+    "z": "fdb3d8bd6ccfa7fe",
+    "name": "",
+    "server": "",
+    "client": "a70eb5adc047743a",
+    "x": 630,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "a70eb5adc047743a",
+    "type": "websocket-client",
+    "path": "ws://localhost:1881",
+    "tls": "",
+    "wholemsg": "false",
+    "hb": "0",
+    "subprotocol": ""
+  }
+]
